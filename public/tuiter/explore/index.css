@@ -1,0 +1,23 @@
+* {
+    background-color: black;
+    border-color: rgb(47, 51, 54);
+}
+
+.searchBar {
+    color: white;
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 50px;
+    min-width: 500px;
+}
+
+.topBar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 20px;
+}
+
+.icon {
+    background: none;
+}
