@@ -4,18 +4,13 @@
     <meta charset="UTF-8" />
     <title>Explore</title>
     <link rel="stylesheet" href="index.css" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <div class="container">
       <div class="top-bar">
         <input
           type="text"
-          placeholder="&#xF002; Search Tuiter"
-          style="font-family: Arial, FontAwesome"
+          placeholder="Search Tuiter"
           class="search-bar"
         />
         <a href="explore-settings.html" alt="Settings" class="settings">
@@ -27,42 +22,77 @@
           />
         </a>
       </div>
-      <div class="links">
-        <a href="foryou.html" class="link selected">For You</a>
-        <a href="trending.html" class="link">Trending</a>
-        <a href="covid.html" class="link">COVID-19</a>
-        <a href="news.html" class="link">News</a>
-        <a href="sports.html" class="link">Sports</a>
-        <a href="entertainment.html" class="link">Entertainment</a>
-      </div>
+      <ul class="links">
+      <li class="link selected">For You</li>
+      <li class="link">Trending</li>
+      <li class="link">COVID-19</li>
+      <li class="link">News</li>
+      <li class="link">Sports</li>
+      <li class="link">Entertainment</li>
+      </ul>
       <ul class="suggestions">
         <li class="suggestion">
           <div class="post">
             <span class="subhead">Trending in Science</span>
             <span>Starship</span>
-            <span class="subhead">55.5K Tweets</span>
+            <span class="subhead">55.5K Tuits</span>
           </div>
         </li>
         <li class="suggestion">
           <div class="post">
             <span class="subhead">Sports • Trending</span>
             <span>Joe Rogan</span>
-            <span class="subhead">5.21B Tweets</span>
+            <span class="subhead">5.21B Tuits</span>
           </div>
         </li>
         <li class="suggestion">
-          <div>
-            <div class="more-info">
-              <img src="https://picsum.photos/100/100" />
-              <span class="author">The New York Times</span>
-              <span class="subhead">Yesterday</span>
+            <div class="post-and-pic">
+              <div class="post">
+                <div class="more-info">
+                  <img src="https://picsum.photos/100/100" />
+                  <span class="author">The New York Times</span>
+                  <span class="subhead">Yesterday</span>
+                </div>
+                <span
+                  >CNN's Cuomo conundrum: A star anchor with a brother in
+                  trouble</span
+                >
+              </div>
+              <img class="content-pic" src="https://picsum.photos/101/100" />
             </div>
-            <span
-              >CNN's Cuomo conundrum: A star anchor with a brother in
-              trouble</span
-            >
+        </li>
+        <li class="suggestion">
+            <div class="post-and-pic">
+              <div class="post">
+                <div class="more-info">
+                  <img src="https://picsum.photos/100/101" />
+                  <span class="topic">COVID-19</span>
+                  <span class="subhead">LIVE</span>
+                </div>
+                <span>COVID-19: News and updates for Massachusetts</span>
+              </div>
+              <img class="content-pic" src="https://picsum.photos/101/101" />
+            </div>
+        </li>
+        <li class="suggestion">
+            <div class="post-and-pic">
+              <div class="post">
+                <div class="more-info">
+                  <img src="https://picsum.photos/101/102" />
+                  <span class="author">Bloomberg Opinion</span>
+                  <span class="subhead">Yesterday</span>
+                </div>
+                <span>Thinking about getting a booster? Read this first.</span>
+              </div>
+              <img class="content-pic" src="https://picsum.photos/102/101" />
+            </div>
+        </li>
+        <li class="suggestion">
+          <div class="post">
+            <span class="subhead">Trending in United States</span>
+            <span>Wonder Bread</span>
+            <span class="subhead">1259 Tuits</span>
           </div>
-          <img class="content-pic" src="https://picsum.photos/100/100" />
         </li>
       </ul>
     </div>
