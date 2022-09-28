@@ -1,0 +1,43 @@
+h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.handle {
+    color: lightgrey;
+    font-size: 13px;
+}
+
+.page {
+    padding-bottom: 12px;
+}
+
+.top-bar {
+    border-bottom: 1px solid darkgray;
+}
+
+.author-name {
+    font-weight: bold;
+}
+
+.username, .post-date {
+    color: lightgrey;
+}
+
+.post {
+    display: flex;
+    gap: 12px;
+    font-size: 15px;
+}
+
+.post img {
+    border-radius: 50%;
+}
+
+.main-content {
+    max-width: 506px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-top: 5px;
+}
+
