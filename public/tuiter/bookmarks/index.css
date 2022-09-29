@@ -3,6 +3,10 @@ h2 {
     font-size: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .handle {
     color: lightgrey;
     font-size: 13px;
@@ -28,6 +32,7 @@ h2 {
     display: flex;
     gap: 12px;
     font-size: 15px;
+    padding-left: 12px;
 }
 
 .post img {
@@ -36,8 +41,50 @@ h2 {
 
 .main-content {
     max-width: 506px;
-    padding-right: 16px;
-    padding-bottom: 12px;
     padding-top: 5px;
 }
 
+.main-content img {
+    border-radius: inherit;
+}
+
+.captioned-pic {
+    border-radius: 12px;
+    margin-top: 12px;
+    border: 1px solid darkgray;
+}
+
+.caption {
+    font-size: 15px;
+    padding: 12px;
+    border-top: 1px solid darkgray;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.body, .link {
+    color: lightgrey;
+}
+
+.interaction {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    padding-top: 12px;
+}
+
+.numbered-icon {
+    display: flex;
+    gap: 12px;
+    color: lightgrey;
+
+}
+
+.selected {
+    color: red;
+}
