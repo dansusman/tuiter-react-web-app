@@ -2,11 +2,12 @@ body {
     /*font-family: "Arial";*/
     /*background-color: black;*/
     /*color: white;*/
+    padding: 12px;
 }
 
 .wd-search-tuiter {
-    bottom: 7px;
-    left: 10px;
+    bottom: 10px;
+    left: 14px;
 }
 
 .wd-nav-tabs {
@@ -23,4 +24,3 @@ body {
 .wd-nav-tabs .wd-selected {
     border-bottom: solid 4px var(--blue);
 }
-
