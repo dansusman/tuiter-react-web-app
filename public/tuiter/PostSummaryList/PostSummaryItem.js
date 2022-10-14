@@ -1,15 +1,15 @@
 const PostSummaryItem = (post) => {
-  return `
+    return `
     <li class="list-group-item">
         <div class="row">
             <div class="col-8">
                 <div class="text-secondary">
                     ${post.topic}
                 </div>
-                <span class="col fw-bolder">${post.userName}</span>
-                <span class="text-muted">${post.time}</span>
+                <span class="col fw-bolder">${post.userName} ⚪️</span>
+                <span class="text-muted">- ${post.time}</span>
                 <div class="fw-bolder">
-                    ${post.title}
+                    ${post.title} 
                 </div>
             </div>
             <div class="col-4">
