@@ -12,7 +12,7 @@ function exploreComponent() {
       <div class="col-10 col-md-10 col-lg-7 col-xl-6 text-white">
          ${ExploreComponent()}
       </div>
-      <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 text-white">
+      <div class="d-none d-lg-block col-lg-4 col-xl-4 text-white">
       ${WhoToFollowList()}
       </div>
    </div>

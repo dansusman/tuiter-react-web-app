@@ -3,9 +3,9 @@ import TabBar from "../TabBar/TabBar.js";
 
 const ExploreComponent = () => {
     return `
-        <div>
-            <div class="row align-items-center">
-                <div class="col-11">
+        <div class="pe-4 pe-sm-inherit">
+            <div class="row align-items-center pe-3 pe-md-2 pe-lg-0">
+                <div class="col-11 col-lg-11">
                     <div class="position-relative">
                         <input
                             class="ps-5 form-control rounded-pill"
@@ -17,7 +17,7 @@ const ExploreComponent = () => {
                         ></i>
                     </div>
                 </div>
-                <div class="col-1">
+                <div class="col-1 col-lg-1">
                     <i
                         class="fas fa-cog fa-2x"
                         style="color: var(--blue)"
