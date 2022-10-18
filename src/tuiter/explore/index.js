@@ -22,7 +22,11 @@ const ExploreComponent = () => {
             </div>
             <TabBar />
             <div className="position-relative mb-2">
-                <img src="../images/starship.webp" className="w-100" />
+                <img
+                    src="../images/starship.webp"
+                    className="w-100"
+                    alt="Tesla Starship"
+                />
                 <h1 className="position-absolute wd-nudge-up text-white">
                     SpaceX Starship
                 </h1>

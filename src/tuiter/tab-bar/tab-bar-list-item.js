@@ -7,7 +7,7 @@ const TabBarListItem = ({ tab = { name: "For You", active: "True" } }) => {
                 className={`nav-link ${
                     tab.name === "Entertainment" ? "d-none d-md-block" : null
                 } ${tab.active ? "active" : null}`}
-                href="#"
+                href="/"
             >
                 {tab.name}
             </a>
