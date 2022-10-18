@@ -4,7 +4,7 @@ import whoArray from "./who.json";
 
 const WhoToFollowList = () => {
     return (
-        <ul className="list-group">
+        <ul className="list-group pt-1">
             <li className="list-group-item">
                 <h3>Who to follow</h3>
             </li>
