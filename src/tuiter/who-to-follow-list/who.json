@@ -16,5 +16,23 @@
         "userName": "SpaceX",
         "handle": "SpaceX",
         "avatarIcon": "spacex.png"
+    },
+    {
+        "_id": 456,
+        "avatarIcon": "java.png",
+        "userName": "Java",
+        "handle": "java"
+    },
+    {
+        "_id": 567,
+        "avatarIcon": "relativityspace.webp",
+        "userName": "Relativity Space",
+        "handle": "relativityspace"
+    },
+    {
+        "_id": 678,
+        "avatarIcon": "virgin.png",
+        "userName": "Virgin Galactic",
+        "handle": "virgingalactic"
     }
 ]
