@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
 import React from "react";
 import { Provider } from "react-redux";
-import ExploreComponent from "./explore";
-import HomeComponent from "./home";
+import ExploreComponent from "../tuiter/explore/index.js";
+import HomeComponent from "../tuiter/home/index.js";
 import NavigationSidebar from "./navigation-sidebar";
 import tuitsReducer from "./tuits/tuits-reducer";
 import whoReducer from "./reducers/who-reducer";

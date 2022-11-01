@@ -2,6 +2,7 @@ import React from "react";
 import PostSummaryList from "../post-summary-list";
 import TabBar from "../tab-bar";
 import "./index.css";
+
 const ExploreComponent = () => {
     return (
         <>
