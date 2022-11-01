@@ -5,15 +5,29 @@
         "userName": "Tesla",
         "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
         "time": "2h",
-        "image": "tesla.png"
+        "image": "tesla.png",
+        "liked": true,
+        "retuited": false,
+        "replies": 897,
+        "retuits": 12,
+        "likes": 882,
+        "handle": "@tesla",
+        "tuit": "Autopilot is an advanced driver assistance system that enhances safety and convenience behind the wheel. When used properly, Autopilot reduces your overall workload as a driver. Each new Tesla vehicle is equipped with eight external cameras and powerful vision processing to provide an additional layer of safety. All vehicles built for the North American market now use our camera-based Tesla Vision to deliver Autopilot features, rather than radar."
     },
     {
         "_id": 234,
         "topic": "Space",
         "userName": "SpaceX",
-        "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
         "time": "2h",
-        "image": "spacex.png"
+        "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+        "image": "spacex.png",
+        "liked": false,
+        "retuited": false,
+        "replies": 562,
+        "retuits": 5789,
+        "likes": 6498,
+        "handle": "@spacex",
+        "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
     },
     {
         "_id": 345,
@@ -21,7 +35,14 @@
         "userName": "Tesla",
         "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
         "time": "4d",
-        "image": "tesla.png"
+        "image": "tesla.png",
+        "liked": true,
+        "retuited": false,
+        "replies": 123,
+        "retuits": 432,
+        "likes": 2345,
+        "handle": "@tesla",
+        "tuit": "As a thank you to Tesla owners for referring a friend or family member, we invited them to submit images that were laser-etched & launched into space by SpaceX’s Falcon 9."
     },
     {
         "_id": 456,
@@ -29,7 +50,14 @@
         "userName": "ReactJS",
         "time": "2h",
         "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
-        "image": "react.png"
+        "image": "react.png",
+        "liked": false,
+        "retuited": false,
+        "replies": 6564,
+        "retuits": 23401,
+        "likes": 123532,
+        "handle": "@web-dev",
+        "tuit": "We're happy to see Server Components ship in @nextjs today, and we've been in active talks with other frameworks like @gatsbyjs as part of the RSC working group, so look forward to seeing support in more frameworks soon. :)"
     },
     {
         "_id": 567,
@@ -37,7 +65,14 @@
         "userName": "JavaScript",
         "time": "1 day",
         "title": "JavaScript is programming language that can run on browsers as well as desktops",
-        "image": "js.png"
+        "image": "js.png",
+        "liked": true,
+        "retuited": true,
+        "replies": 0,
+        "retuits": 43,
+        "likes": 25,
+        "handle": "@javascript",
+        "tuit": "Just curious, are you using => functions exclusively or still sticking to traditional function syntax?"
     },
     {
         "_id": 678,
@@ -45,7 +80,14 @@
         "userName": "WD",
         "title": "jQuery",
         "time": "last week",
-        "image": "jquery.png"
+        "image": "jquery.png",
+        "liked": false,
+        "retuited": false,
+        "replies": 3,
+        "retuits": 6,
+        "likes": 43,
+        "handle": "@web-dev",
+        "tuit": "jQuery 3.6.1 has been released! This includes bug fixes, performance improvements, and lots of internal infrastructure improvements. 🚀🚀🚀"
     },
     {
         "_id": 789,
@@ -53,6 +95,13 @@
         "userName": "NodeJS",
         "title": "",
         "time": "last month",
-        "image": "node.png"
+        "image": "node.png",
+        "liked": false,
+        "retuited": false,
+        "replies": 21,
+        "retuits": 235,
+        "likes": 782,
+        "handle": "@nodejs",
+        "tuit": "Node.js 18 has now been promoted to LTS! With this release, many features will be available in a long-term supported release line. Thank you to all of our contributors on this release 💚"
     }
 ]
