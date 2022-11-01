@@ -1,13 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
 import React from "react";
 import { Provider } from "react-redux";
-import ExploreComponent from "../tuiter/explore/index.js";
-import HomeComponent from "../tuiter/home/index.js";
-import NavigationSidebar from "./navigation-sidebar";
-import tuitsReducer from "./tuits/tuits-reducer";
+import { Route, Routes } from "react-router";
+import ExploreComponent from "./explore/index.js";
+import HomeComponent from "./home/index.js";
+import NavigationSidebar from "./navigation-sidebar/index.js";
 import whoReducer from "./reducers/who-reducer";
-import WhoToFollowList from "./who-to-follow-list";
-import { Routes, Route } from "react-router";
+import tuitsReducer from "./tuits/tuits-reducer";
+import WhoToFollowList from "./who-to-follow-list/index.js";
 
 const store = configureStore({
     reducer: { who: whoReducer, tuits: tuitsReducer },
