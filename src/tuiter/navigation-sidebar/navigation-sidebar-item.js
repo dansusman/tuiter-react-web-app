@@ -4,7 +4,7 @@ const NavigationSidebarItem = ({
     tab = {
         name: "Home",
         icon: "house",
-        destination: "home",
+        destination: "",
     },
     active = true,
 }) => {
