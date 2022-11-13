@@ -1,0 +1,50 @@
+[
+    {
+        "_id": 0,
+        "name": "Home",
+        "icon": "house",
+        "active": false
+    },
+    {
+        "_id": 1,
+        "name": "Explore",
+        "icon": "hash",
+        "active": true
+    },
+    {
+        "_id": 2,
+        "name": "Notifications",
+        "icon": "bell",
+        "active": false
+    },
+    {
+        "_id": 3,
+        "name": "Messages",
+        "icon": "envelope",
+        "active": false
+    },
+    {
+        "_id": 4,
+        "name": "Bookmarks",
+        "icon": "bookmark",
+        "active": false
+    },
+    {
+        "_id": 5,
+        "name": "Lists",
+        "icon": "list",
+        "active": false
+    },
+    {
+        "_id": 6,
+        "name": "Profile",
+        "icon": "person-circle",
+        "active": false
+    },
+    {
+        "_id": 7,
+        "name": "More",
+        "icon": "three-dots",
+        "active": false
+    }
+]
