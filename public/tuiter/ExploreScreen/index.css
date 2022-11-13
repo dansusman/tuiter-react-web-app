@@ -1,9 +1,3 @@
-body {
-    /*font-family: "Arial";*/
-    /*background-color: black;*/
-    /*color: white;*/
-}
-
 .wd-search-tuiter {
     bottom: 10px;
     left: 14px;
@@ -25,5 +19,5 @@ body {
 }
 
 .wd-rounded {
-    border-radius: .9rem;
+    border-radius: 0.9rem;
 }

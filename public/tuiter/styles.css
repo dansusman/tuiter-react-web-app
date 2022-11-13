@@ -1,26 +1,9 @@
 :root {
-    --blue: rgb(29, 161, 242);
+    --blue: #2a9fd6;
 }
 
 body {
-  background-color: black;
-  border-color: rgb(47, 51, 54);
-  color: white;
-  border-left: 1px solid darkgray;
-  margin-left: 20px;
-  font-family: sans-serif;
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
 }
-
-.top-bar {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 20px;
-  margin-top: 12px;
-  margin-left: 16px;
-}
-
-.container {
-  margin: 20px;
-}
-
