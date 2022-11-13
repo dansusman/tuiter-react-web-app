@@ -23,7 +23,11 @@ const PostSummaryItem = ({
                     <img
                         width={70}
                         className="float-end rounded-3"
-                        src={`/images/${post.image}`}
+                        src={
+                            post.image
+                                ? `/images/${post.image}`
+                                : "/images/blank.jpg"
+                        }
                         alt="Tuit"
                     />
                 </div>

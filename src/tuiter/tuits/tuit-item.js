@@ -1,7 +1,7 @@
 import React from "react";
 import TuitStats from "./tuit-stats";
 import { useDispatch } from "react-redux";
-import { deleteTuit } from "./tuits-reducer";
+import { deleteTuitThunk } from "../../services/tuits-thunks";
 const TuitItem = ({
     tuit = {
         topic: "Space",
@@ -14,7 +14,7 @@ const TuitItem = ({
 }) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     };
     return (
         <li className="list-group-item">
@@ -23,7 +23,11 @@ const TuitItem = ({
                     <img
                         width={50}
                         className="float-end rounded-circle"
-                        src={`/images/${tuit.image}`}
+                        src={
+                            tuit.image
+                                ? `/images/${tuit.image}`
+                                : "/images/blank.jpg"
+                        }
                         alt="twitter thing"
                     />
                 </div>
@@ -33,10 +37,14 @@ const TuitItem = ({
                             className="bi bi-x-lg float-end"
                             onClick={() => deleteTuitHandler(tuit._id)}
                         ></i>
-                        <span className="fw-bold">{tuit.userName}</span>
-                        <i className="bi bi-patch-check-fill ms-2 me-2 text-primary"></i>
-                        {tuit.handle}
-                        <i className="bi bi-dot"></i>
+                        <span className="fw-bold">
+                            {tuit.username || "Anon"}{" "}
+                        </span>
+                        {tuit.handle || "@anonymousUser"}
+                        {tuit.verified && (
+                            <i className="bi bi-patch-check-fill ms-2 me-2 text-primary"></i>
+                        )}
+                        {tuit.time && <i className="bi bi-dot"></i>}
                         {tuit.time}
                     </div>
                     <div>{tuit.tuit}</div>
