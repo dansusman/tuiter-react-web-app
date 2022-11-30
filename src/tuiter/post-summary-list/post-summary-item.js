@@ -2,7 +2,7 @@ import React from "react";
 const PostSummaryItem = ({
     post = {
         topic: "Space",
-        userName: "SpaceX",
+        username: "SpaceX",
         time: "2h",
         title:
             "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
@@ -14,16 +14,25 @@ const PostSummaryItem = ({
             <div className="row">
                 <div className="col-10">
                     <div>
-                        {post.userName} • {post.time}
+                        <span className="fw-bold">
+                            {post.username || "Anon"}{" "}
+                        </span>{" "}
+                        • {post.time || "Now"}
                     </div>
-                    <div className="fw-bolder">{post.topic}</div>
-                    <div>{post.title}</div>
+                    <div className="fw-bolder">
+                        {post.topic || "Web Development"}
+                    </div>
+                    <div>{post.title || "Lorem ipsum"}</div>
                 </div>
                 <div className="col-2">
                     <img
                         width={70}
                         className="float-end rounded-3"
-                        src={`/images/${post.image}`}
+                        src={
+                            post.image
+                                ? `/images/${post.image}`
+                                : "/images/blank.jpg"
+                        }
                         alt="Tuit"
                     />
                 </div>

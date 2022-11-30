@@ -2,7 +2,7 @@
     {
         "_id": 123,
         "topic": "Tesla",
-        "userName": "Tesla",
+        "username": "Tesla",
         "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
         "time": "2h",
         "image": "tesla.png",
@@ -17,7 +17,7 @@
     {
         "_id": 234,
         "topic": "Space",
-        "userName": "SpaceX",
+        "username": "SpaceX",
         "time": "2h",
         "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
         "image": "spacex.png",
@@ -32,7 +32,7 @@
     {
         "_id": 345,
         "topic": "Energy",
-        "userName": "Tesla",
+        "username": "Tesla",
         "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
         "time": "4d",
         "image": "tesla.png",
@@ -47,7 +47,7 @@
     {
         "_id": 456,
         "topic": "Web Development",
-        "userName": "ReactJS",
+        "username": "ReactJS",
         "time": "2h",
         "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
         "image": "react.png",
@@ -62,7 +62,7 @@
     {
         "_id": 567,
         "topic": "",
-        "userName": "JavaScript",
+        "username": "JavaScript",
         "time": "1 day",
         "title": "JavaScript is programming language that can run on browsers as well as desktops",
         "image": "js.png",
@@ -77,7 +77,7 @@
     {
         "_id": 678,
         "topic": "Web Development",
-        "userName": "WD",
+        "username": "WD",
         "title": "jQuery",
         "time": "last week",
         "image": "jquery.png",
@@ -92,7 +92,7 @@
     {
         "_id": 789,
         "topic": "Web Development",
-        "userName": "NodeJS",
+        "username": "NodeJS",
         "title": "",
         "time": "last month",
         "image": "node.png",

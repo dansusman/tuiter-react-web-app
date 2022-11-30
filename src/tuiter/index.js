@@ -10,7 +10,7 @@ import tuitsReducer from "./tuits/tuits-reducer";
 import WhoToFollowList from "./who-to-follow-list/index.js";
 
 const store = configureStore({
-    reducer: { who: whoReducer, tuits: tuitsReducer },
+    reducer: { who: whoReducer, tuitsData: tuitsReducer },
 });
 
 function Tuiter() {
