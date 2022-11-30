@@ -1,50 +1,55 @@
 [
     {
+        "_id": 999,
+        "name": "Tuiter",
+        "destination": ""
+    },
+    {
         "_id": 0,
         "name": "Home",
         "icon": "house",
-        "active": false
+        "destination": ""
     },
     {
         "_id": 1,
         "name": "Explore",
         "icon": "hash",
-        "active": true
+        "destination": "explore"
     },
     {
         "_id": 2,
         "name": "Notifications",
         "icon": "bell",
-        "active": false
+        "destination": "notifications"
     },
     {
         "_id": 3,
         "name": "Messages",
         "icon": "envelope",
-        "active": false
+        "destination": "messages"
     },
     {
         "_id": 4,
         "name": "Bookmarks",
         "icon": "bookmark",
-        "active": false
+        "destination": "bookmarks"
     },
     {
         "_id": 5,
         "name": "Lists",
         "icon": "list",
-        "active": false
+        "destination": "lists"
     },
     {
         "_id": 6,
         "name": "Profile",
         "icon": "person-circle",
-        "active": false
+        "destination": "profile"
     },
     {
         "_id": 7,
         "name": "More",
         "icon": "three-dots",
-        "active": false
+        "destination": "more"
     }
 ]
